@@ -1,0 +1,19 @@
+
+public class phoneNumber {
+
+	public static void main(String[] args)
+	{
+		
+		String n = "705726552";
+		
+		String p ="()"; 
+		
+		String d = "-";
+		
+		System.out.println(p.substring(0,1) + n.substring(0,3) + p.substring(1,2) + n.substring(3,6) + d.substring(0) + n.substring(6,9));
+		
+		// there is an easier way to do this but I tried using only strings
+		
+	}
+	
+}
